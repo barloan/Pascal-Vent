@@ -96,6 +96,119 @@ img {
   font-weight: 700;
 }
 
+.pop-up {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(217, 250, 221, 0.55);
+  backdrop-filter: blur(20px);
+  z-index: 4;
+}
+
+.pop-up.active {
+  display: block;
+}
+
+.pop-up-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.pop-up-body {
+  margin: auto;
+  width: 445px;
+  background-color: #D9FADD;
+  border-radius: 50px;
+  padding-top: 35px;
+  position: relative;
+}
+.pop-up-body h1 {
+  color: #495E4C;
+  font-family: Ruberoid;
+  font-size: 40px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 55px;
+  width: 319px;
+  position: relative;
+  margin: 0px 0px 20px 35px;
+}
+.pop-up-body h1::after {
+  content: "";
+  position: absolute;
+  top: 80px;
+  left: 183px;
+  width: 136px;
+  border-radius: 1.5px;
+  background-color: #78C081;
+  height: 2px;
+  border: 1px solid #78C081;
+}
+
+.pop-up-info {
+  background-color: #FFFFFF;
+  border-radius: 35px 35px 50px 50px;
+  padding: 35px;
+}
+.pop-up-info p {
+  color: #7CA381;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+.pop-up-info-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.pop-up-info-flex p {
+  margin-bottom: 0px;
+}
+.pop-up-info-flex-text {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.pop-up-info-flex-text p {
+  margin-bottom: 0px;
+}
+.pop-up-info-flex-text a {
+  text-decoration: none;
+  color: #7B897D;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 400;
+}
+.pop-up-info-flex-text img {
+  width: 22px;
+  height: 22px;
+}
+
+.pop-up-close {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  border: solid 1px #7CA381;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  cursor: pointer;
+  font-size: 20px;
+  top: 35px;
+  right: 35px;
+}
+
 .welcome {
   padding-bottom: 94px;
 }
@@ -211,6 +324,7 @@ button[class*=btn]:hover {
   bottom: 50px;
   right: 50px;
   display: flex;
+  z-index: 3;
   justify-content: center;
   align-items: center;
   text-decoration: none;
