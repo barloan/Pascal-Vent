@@ -1,0 +1,261 @@
+@font-face {
+  font-family: Ruberoid;
+  font-weight: 300;
+  font-style: normal;
+  src: local("Ruberoid-Light"), url(../font/Ruberoid/Ruberoid-Light.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Ruberoid;
+  font-weight: 500;
+  font-style: normal;
+  src: local("Ruberoid-Medium"), url(../font/Ruberoid/Ruberoid-Medium.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Ruberoid;
+  font-weight: 600;
+  font-style: normal;
+  src: local("Ruberoid-SemoBold"), url(../font/Ruberoid/Ruberoid-SemiBold.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Ruberoid;
+  font-weight: 700;
+  font-style: normal;
+  src: local("Ruberoid-Bold"), url(../font/Ruberoid/Ruberoid-Bold.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Proximanova_regular"), url(../font/Proxima_Nova/proximanova_regular.woff2) format("woff2");
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  block-size: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.background {
+  background-image: url("../../img/404.png"), linear-gradient(180deg, #F1F1F1 0%, #F0F2F1 16%, #EBEDEC 43%, #E6E8E7 73%, #DEE2E1 100%);
+  background-position: right;
+  background-size: contain;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+}
+
+.header {
+  padding: 26px 55px 80px 45px;
+}
+.header-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  list-style: none;
+}
+.header .list-item a {
+  color: #495E4C;
+  font-family: Proxima Nova;
+  font-size: 15px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.header .list-item a:hover {
+  color: #5CCD6A;
+}
+.header .btn {
+  padding: 16px 44px;
+  border-radius: 17px;
+  box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.25), inset 2px -2px 12px rgba(34, 111, 33, 0.36);
+  background-color: #5CCD6A;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: Ruberoid;
+  font-size: 15px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 700;
+}
+.header .btn:hover {
+  background-color: #FFFFFF;
+  color: #495E4C;
+}
+
+.eror-404 {
+  padding-bottom: 340px;
+}
+.eror-404 .mistake {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  gap: 40px;
+  justify-content: center;
+  width: 455px;
+  align-items: center;
+}
+.eror-404 h1 {
+  color: #78C081;
+  font-family: Ruberoid;
+  font-size: 164px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 700;
+  line-height: 120px;
+}
+.eror-404 p {
+  color: #000000;
+  font-family: Ruberoid;
+  font-size: 20px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 500;
+  width: 453px;
+  text-transform: uppercase;
+  line-height: 130%;
+  text-align: center;
+}
+.eror-404 a {
+  padding: 25px 80px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 0px 10px rgba(120, 192, 129, 0.25), inset 2px -2px 12px rgba(34, 111, 33, 0.36);
+  background-color: #5CCD6A;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: Ruberoid;
+  font-size: 17px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 700;
+  width: 80px;
+  text-decoration: none;
+}
+.eror-404 a:hover {
+  background-color: #FFFFFF;
+  color: #495E4C;
+}
+
+.footer {
+  padding-top: 93px;
+  background-image: url(../../img/schemefooter-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-flex {
+  display: flex;
+  gap: 126px;
+}
+.footer-text p {
+  margin: 27px 0 25px;
+  width: 406px;
+  color: #7CA381;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 400;
+}
+.footer-text hr {
+  width: 406px;
+  border-radius: 1.5px;
+  background-color: #78C081;
+  height: 2px;
+  border: 1px solid #78C081;
+  height: 1px;
+  border: none;
+}
+.footer-text span {
+  color: #78C081;
+  font-family: Ruberoid;
+  font-size: 22px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 600;
+}
+.footer-text .slogan {
+  color: #495E4C;
+  font-family: Ruberoid;
+  font-size: 18px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 39px 0px 0px;
+}
+.footer-title {
+  display: block;
+  color: #495E4C;
+  font-family: Ruberoid;
+  font-size: 26px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  line-height: 38px;
+}
+.footer-info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.footer-info p, .footer-info a {
+  text-decoration: none;
+  color: #7B897D;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 400;
+}
+.footer-info p {
+  width: 152px;
+}
+.footer form {
+  width: 290px;
+}
+.footer form input {
+  display: block;
+  border: none;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 15px;
+  width: 250px;
+  color: #7CA381;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 400;
+}
+.footer form input:nth-child(3) {
+  margin-bottom: 43px;
+}
+.footer form button {
+  padding: 17px 50px;
+  border-radius: 17px;
+  box-shadow: 0px 0px 0px 10px rgba(120, 192, 129, 0.25), inset 2px -2px 12px rgba(34, 111, 33, 0.36);
+  background-color: #5CCD6A;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: Ruberoid;
+  font-size: 15px;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 700;
+}
