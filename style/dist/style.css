@@ -394,7 +394,7 @@ button[class*=btn]:hover {
   flex-direction: column;
   gap: 30px;
   padding-left: 40px;
-  margin-top: 109px;
+  padding-top: 109px;
 }
 .services .icon-flex {
   display: flex;
@@ -415,7 +415,7 @@ button[class*=btn]:hover {
 .services .icon-flex img {
   border-radius: 10px;
 }
-.services_block-grid {
+.services-block-grid {
   display: grid;
   grid-template-columns: 376px 255px;
   gap: 40px;
@@ -423,7 +423,7 @@ button[class*=btn]:hover {
   border-radius: 65px 0 0 65px;
   justify-content: space-between;
 }
-.services_block-grid .installation {
+.services-block-grid .installation {
   width: 252px;
   height: 655px;
   border-radius: 65px 0 0 65px;
@@ -598,7 +598,7 @@ h1, span {
   background-image: url(../../img/air.png);
   padding: 58px 0px;
 }
-.form legend {
+.form h1 {
   color: #495E4C;
   font-family: Ruberoid;
   font-size: 35px;
@@ -1054,7 +1054,7 @@ h1, span {
   line-height: 24px;
   font-weight: 400;
 }
-.footer form input:nth-child(3) {
+.footer form input:nth-child(2) {
   margin-bottom: 43px;
 }
 .footer form button {
