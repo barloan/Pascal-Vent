@@ -1706,7 +1706,7 @@ img {
     font-size: 10px;
   }
 }
-@media (max-width: 321px) {
+@media (max-width: 374px) {
   .header img {
     width: 30vw;
   }
