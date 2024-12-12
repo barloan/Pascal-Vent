@@ -95,6 +95,9 @@ img {
   line-height: 24px;
   font-weight: 700;
 }
+.header .menu {
+  display: none;
+}
 
 .pop-up {
   display: none;
@@ -286,6 +289,7 @@ img {
 }
 .welcome-grid {
   display: grid;
+  justify-content: flex-start;
   grid-template-rows: 227px 64px 48px 85px;
   gap: 45px;
 }
@@ -388,6 +392,9 @@ button[class*=btn]:hover {
   display: flex;
   flex-direction: column;
   gap: 35px;
+}
+.services .img-adaptiv {
+  display: none;
 }
 .services-icons {
   display: flex;
@@ -606,6 +613,7 @@ h1, span {
   line-height: 24px;
   font-weight: 600;
   padding-bottom: 24px;
+  text-transform: none;
   line-height: 51px;
 }
 .form input {
@@ -644,7 +652,7 @@ h1, span {
   background-image: url(../../img/ovalblur.png);
   background-repeat: no-repeat;
   background-position: left;
-  padding: 100px 0px;
+  padding: 102px 0px;
 }
 .about-alignment {
   display: flex;
@@ -799,7 +807,6 @@ h1, span {
   text-align: left;
   line-height: 24px;
   font-weight: 700;
-  display: block;
 }
 .comfort-img {
   display: flex;
@@ -909,8 +916,7 @@ h1, span {
 
 .clients-background {
   background-color: #D9FADD;
-  padding: 156px 0px 72px;
-  padding-left: 135px;
+  padding: 156px 0px 72px 135px;
   clip-path: polygon(100% 100%, 0% 100%, 0% 25.25%, 1% 25.04%, 2% 24.77%, 3% 24.44%, 4% 24.03%, 5% 23.57%, 6% 23.04%, 7% 22.45%, 8% 21.81%, 9% 21.12%, 10% 20.38%, 11% 19.59%, 12% 18.77%, 13% 17.92%, 14% 17.03%, 15% 16.12%, 16% 15.2%, 17% 14.26%, 18% 13.31%, 19% 12.36%, 20% 11.41%, 21% 10.47%, 22% 9.54%, 23% 8.63%, 24% 7.75%, 25% 6.89%, 26% 6.07%, 27% 5.28%, 28% 4.54%, 29% 3.85%, 30% 3.2%, 31% 2.62%, 32% 2.08%, 33% 1.61%, 34% 1.21%, 35% 0.87%, 36% 0.6%, 37% 0.39%, 38% 0.26%, 39% 0.2%, 40% 0.21%, 41% 0.29%, 42% 0.44%, 43% 0.67%, 44% 0.96%, 45% 1.32%, 46% 1.75%, 47% 2.24%, 48% 2.78%, 49% 3.39%, 50% 4.05%, 51% 4.76%, 52% 5.51%, 53% 6.31%, 54% 7.14%, 55% 8.01%, 56% 8.9%, 57% 9.81%, 58% 10.75%, 59% 11.69%, 60% 12.64%, 61% 13.59%, 62% 14.54%, 63% 15.47%, 64% 16.4%, 65% 17.3%, 66% 18.17%, 67% 19.02%, 68% 19.83%, 69% 20.6%, 70% 21.33%, 71% 22%, 72% 22.63%, 73% 23.2%, 74% 23.71%, 75% 24.16%, 76% 24.54%, 77% 24.86%, 78% 25.11%, 79% 25.29%, 80% 25.4%, 81% 25.44%, 82% 25.4%, 83% 25.3%, 84% 25.12%, 85% 24.87%, 86% 24.56%, 87% 24.17%, 88% 23.73%, 89% 23.22%, 90% 22.65%, 91% 22.03%, 92% 21.35%, 93% 20.63%, 94% 19.86%, 95% 19.05%, 96% 18.21%, 97% 17.33%, 98% 16.43%, 99% 15.51%, 100% 14.57%);
 }
 .clients-grid {
@@ -1017,6 +1023,7 @@ h1, span {
   font-weight: 500;
   margin-bottom: 24px;
   line-height: 38px;
+  text-transform: none;
 }
 .footer-info {
   display: flex;
