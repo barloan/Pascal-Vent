@@ -300,8 +300,8 @@ img {
     width: 22vw;
   }
   .services-icons {
-    gap: 3vw;
-    padding: 80px 0px 0px 15px;
+    gap: 2vw;
+    padding: 80px 0px 20px 20px;
   }
   .services-grid {
     display: flex;
@@ -325,6 +325,7 @@ img {
     gap: 4vw;
   }
   .services-block-grid .installation {
+    height: 600px;
     width: 17vw;
     text-align: right;
   }
@@ -520,6 +521,7 @@ img {
     width: 38vw;
   }
   .portfolio-slider {
+    gap: 2vw;
     margin-left: 9.375vw;
   }
   .portfolio-slider div[class*=portfolio-slider] {
@@ -612,10 +614,6 @@ img {
   }
 }
 @media (max-width: 1024px) {
-  .background {
-    background-size: contain;
-  }
-
   .header {
     padding-bottom: 20px;
   }
@@ -624,7 +622,11 @@ img {
   }
   .header .menu {
     display: block;
-    width: 32px;
+    width: 48px;
+  }
+
+  .button-fixed {
+    right: 20px;
   }
 
   .welcome {
@@ -636,7 +638,7 @@ img {
   }
   .welcome h1::after {
     height: 1px;
-    top: 70px;
+    top: 60px;
   }
   .welcome .info img {
     width: 20px;
@@ -653,13 +655,17 @@ img {
   }
   .welcome-grid {
     grid-template-rows: 120px 55px 34px 80px;
-    gap: 20px;
+    gap: 15px;
+  }
+  .welcome .flex-contacts {
+    gap: 6.8vw;
   }
   .welcome-btn {
+    padding: 0px;
     box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.25), inset 2px -2px 12px rgba(34, 111, 33, 0.36);
-    padding: 0px 80px;
+    padding: 10px 80px;
     font-size: 12px;
-    width: 38vw;
+    height: 60px;
   }
 
   .services {
@@ -706,18 +712,17 @@ img {
   .services-block-grid {
     width: 35vw;
     grid-template-columns: 180px 17vw;
-    gap: 4vw;
+    gap: 2vw;
   }
   .services-block-grid .installation {
-    width: 17vw;
-    text-align: right;
+    width: 13vw;
+    height: 450px;
   }
 
   .solutions h1 {
-    width: initial;
     font-size: 32px;
     line-height: 36px;
-    margin-bottom: 55px;
+    width: initial;
   }
   .solutions h1::after {
     height: 1px;
@@ -727,273 +732,819 @@ img {
   }
 
   .card {
-    width: 17.5vw;
+    width: 25vw;
   }
   .card img:first-child {
-    width: 17.5vw;
+    width: 25vw;
   }
   .card-grid {
-    grid-template: repeat(1, 2fr)/repeat(4, 1fr);
-    column-gap: 3vw;
-    row-gap: 45px;
+    grid-template: repeat(1, 3fr)/repeat(3, 1fr);
+    column-gap: 4vw;
+    row-gap: 20px;
   }
   .card p {
-    font-size: 14px;
+    font-size: 12px;
+    margin: 4px 0px 10px 15px;
   }
   .card div {
     font-size: 12px;
-    position: absolute;
     top: 14px;
     line-height: 20px;
-    padding: 2px 17px 2px 15px;
+    padding: 2px 14px 2px 10px;
   }
 
   .steps {
     padding-bottom: 55px;
   }
   .steps li {
-    width: initial;
-    font-size: 14px;
+    font-size: 13px;
+    margin-bottom: 5px;
   }
   .steps-flex {
     gap: 6vw;
   }
   .steps h1 {
-    font-size: 40px;
-    line-height: 56px;
+    font-size: 32px;
+    line-height: 36px;
+    width: 50vw;
   }
   .steps h1::after {
-    top: 29px;
-    left: 400px;
+    height: 1px;
+    top: 15px;
+    left: 310px;
     width: 5vw;
+  }
+  .steps p {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .steps-flex {
+    flex-direction: column;
+    gap: 20px;
   }
 
   .steps-diagram {
     padding-bottom: 60px;
   }
   .steps-diagram img {
-    width: 3.5vw;
+    width: 3vw;
   }
   .steps-diagram .flow-icon {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
   .steps-diagram .arrow {
-    width: 18.75vw;
+    width: 17vw;
     object-fit: contain;
   }
   .steps-diagram .diagram-text {
-    padding: 0vw 17vw 0vw 17vw;
-    justify-content: space-between;
+    padding: 0vw 17vw 0vw 14.5vw;
   }
   .steps-diagram .diagram-text p {
-    font-size: 20px;
-  }
-  .steps-diagram .diagram-text p:first-child {
-    margin-right: 0px;
-  }
-  .steps-diagram .diagram-text p:nth-child(2) {
-    margin-right: 0px;
+    font-size: 16px;
   }
 
   .form h1 {
-    padding-bottom: 18px;
     line-height: 26px;
-    font-size: 28px;
+    font-size: 24px;
   }
   .form input {
-    padding: 15px;
+    font-size: 12px;
+    padding: 12px;
     width: 200px;
   }
   .form input[type=tel] {
-    margin-right: 40px;
+    margin-bottom: 15px;
   }
   .form button {
-    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.25), inset 2px -2px 12px rgba(34, 111, 33, 0.36);
-    padding: 14px 40px;
-    font-size: 13px;
+    padding: 12px 34px;
+    font-size: 11px;
   }
 
   .about {
-    padding: 80px 0px;
+    padding: 60px 0px;
   }
   .about h1 {
-    line-height: 56px;
-    font-size: 40px;
+    width: initial;
+    line-height: 36px;
+    font-size: 32px;
     padding-bottom: 15px;
   }
-  .about-grid {
-    width: 36.8vw;
-    gap: 35px 40px;
-  }
   .about-text {
-    width: 15.8vw;
-    height: 165px;
+    background-color: #FFFFFF;
+    background-image: none;
+    width: 20vw;
+    height: 125px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px;
+    justify-content: space-evenly;
   }
   .about-text h3 {
-    font-size: 16px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0px;
   }
   .about-text span {
-    font-size: 24px;
+    font-size: 20px;
   }
   .about-text p {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 18px;
   }
   .about-grid {
-    grid-template: 1fr 1fr/15.5vw 15.8vw;
+    width: initial;
+    grid-template: 1fr 1fr/1fr 1fr;
   }
   .about-alignment {
+    justify-content: center;
+    flex-direction: column;
     gap: 6.6vw;
+  }
+  .about-block {
+    padding: 25px 40px 60px 40px;
+  }
+  .about-block .about-flex-text {
+    gap: 15px;
   }
   .about-block .about-flex-text p {
     width: initial;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 13px;
   }
 
+  .comfort {
+    padding-bottom: 55px;
+  }
   .comfort h1 {
-    line-height: 56px;
-    font-size: 40px;
-    margin-bottom: 15px;
+    line-height: 36px;
+    font-size: 32px;
+    width: 80vw;
+    margin-top: 0px;
+  }
+  .comfort-flex {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .comfort-text {
+    margin-bottom: 20px;
+    width: initial;
   }
   .comfort-text p {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 20px;
+  }
+  .comfort-img {
+    gap: 10px;
+  }
+  .comfort-img-column1, .comfort-img-column2 {
+    gap: 10px;
+    flex-direction: row;
+  }
+  .comfort-img-column2 {
+    margin-top: 0px;
   }
   .comfort-img img {
     width: 20vw;
   }
   .comfort .list-icon {
-    gap: 10px;
-    margin-bottom: 25px;
+    gap: 15px;
+    margin-bottom: 20px;
   }
   .comfort .list-icon-block {
-    width: 70px;
-    height: 30px;
+    padding: 5px 0px;
   }
   .comfort .list-icon-block img {
-    width: 1.5vw;
+    width: 2.5vw;
   }
   .comfort .list-text {
     margin-bottom: 25px;
   }
-  .comfort .list-text li {
-    width: 34.5vw;
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 19px;
-  }
-  .comfort-btn {
-    box-shadow: 0px 0px 0px 7px rgba(120, 192, 129, 0.25), inset 2px -2px 12px rgba(34, 111, 33, 0.36);
-    padding: 20px 80px;
+  .comfort .list-text li, .comfort .list-text li:first-child, .comfort .list-text li:last-child {
+    width: 80vw;
+    margin-bottom: 8px;
     font-size: 13px;
+    line-height: 19px;
   }
 
   .portfolio {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
   .portfolio-text {
-    margin-bottom: 26px;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
   }
   .portfolio-text h1 {
-    line-height: 56px;
-    font-size: 40px;
-    width: 38vw;
+    width: initial;
+    line-height: 36px;
+    font-size: 32px;
   }
   .portfolio-text p {
-    font-size: 14px;
-    width: 38vw;
+    width: initial;
+    line-height: 18px;
+    font-size: 13px;
+  }
+  .portfolio-arrow {
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  .portfolio-arrow img {
+    width: 26px;
+    height: 26px;
   }
   .portfolio-slider {
+    gap: 20px;
     margin-left: 9.375vw;
+    overflow: hidden;
+    grid-template-columns: 400px repeat(3, 1fr);
   }
   .portfolio-slider div[class*=portfolio-slider] {
-    padding: 35px 30px;
-    height: 250px;
+    background-size: cover;
+    padding: 25px 20px;
+    height: 300px;
   }
   .portfolio-slider div[class*=portfolio-slider] span {
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 20px;
   }
   .portfolio-slider div[class*=portfolio-slider] p {
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .portfolio-slider-first div {
+    gap: 5px;
+  }
+  .portfolio-slider div[class=portfolio-slider-fourth] {
+    display: none;
   }
 
-  .clients-background {
-    padding-bottom: 52px;
-  }
   .clients h1 {
-    line-height: 56px;
-    font-size: 40px;
+    width: 60vw;
+    line-height: 36px;
+    font-size: 32px;
     margin-bottom: 15px;
   }
   .clients-grid {
-    grid-template: 1fr/43.5vw 5vw repeat(2, 1fr);
+    display: block;
+    max-width: 60vw;
+    padding-left: 10vw;
+  }
+  .clients-background {
+    padding: 190px 0px 72px;
+  }
+  .clients-text {
+    margin-bottom: 20px;
   }
   .clients p {
-    font-size: 14px;
-    width: initial;
+    width: 60vw;
+    font-size: 13px;
+    line-height: 18px;
   }
   .clients-shop {
-    padding: 30px 3vw;
-    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 30px 5vw;
   }
   .clients-shop img {
-    width: 13vw;
+    width: 15vw;
+  }
+  .clients .MR {
+    margin-right: 20px;
+  }
+  .clients .SM, .clients .MR {
+    display: inline-block;
+  }
+  .clients-arrow {
+    gap: 25px;
+    justify-content: flex-start;
+    padding-left: 10vw;
   }
 
+  .footer {
+    padding-top: 50px;
+  }
   .footer-flex {
-    gap: 8vw;
+    gap: 6vw;
   }
   .footer-text img {
-    width: 24.4vw;
+    width: 24vw;
   }
   .footer-text p {
-    font-size: 12px;
-    line-height: 18px;
-    margin: 20px 0px;
+    font-size: 10px;
+    line-height: 16px;
+    margin: 15px 0px;
+    width: 25vw;
   }
   .footer-text hr {
-    height: 1px;
+    width: 25vw;
+    height: 0.5px;
   }
   .footer-text span {
-    font-size: 16px;
+    font-size: 12px;
   }
   .footer-text .slogan {
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 9px;
+    margin-top: 5px;
   }
   .footer-title {
-    font-size: 20px;
+    line-height: 24px;
+    font-size: 16px;
     margin-bottom: 18px;
   }
   .footer-info {
-    margin-bottom: 20px;
+    width: 20vw;
+    margin-bottom: 10px;
   }
   .footer-info img {
-    width: 18px;
+    width: 14px;
   }
   .footer-info p, .footer-info a {
-    font-size: 14px;
+    line-height: 18px;
+    font-size: 12px;
   }
   .footer form input {
-    margin-bottom: 20px;
-    padding: 12px 1.4vw;
+    margin-bottom: 10px;
+    padding: 8px 1.4vw;
     width: 17vw;
-    color: #7CA381;
-    font-family: Proxima Nova;
-    font-size: 14px;
-    text-align: left;
-    line-height: 24px;
-    font-weight: 400;
+    font-size: 10px;
   }
   .footer form input:nth-child(2) {
-    margin-bottom: 23px;
+    margin-bottom: 15px;
   }
   .footer form button {
-    box-shadow: 0px 0px 0px 5px rgba(120, 192, 129, 0.25), inset 2px -2px 12px rgba(34, 111, 33, 0.36);
-    padding: 14px 40px;
+    padding: 10px 40px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 767px) {
+  .background {
+    background-size: contain;
+  }
+
+  .header {
+    padding: 1.8vw 3.8vw 1vw 3.1vw;
+  }
+  .header .list, .header .btn {
+    display: none;
+  }
+  .header .menu {
+    display: block;
+    width: 40px;
+  }
+
+  .button-fixed {
+    right: 10px;
+  }
+
+  .welcome {
+    padding-bottom: 0px;
+  }
+  .welcome h1, .welcome .title_logo {
+    width: 45vw;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .welcome h1::after {
+    height: 0.5px;
+    top: 40px;
+    width: 17vw;
+  }
+  .welcome .info img {
+    width: 15px;
+    height: 15px;
+  }
+  .welcome .info a {
+    font-size: 6px;
+    width: 18vw;
+    line-height: 7px;
+  }
+  .welcome .description {
+    font-size: 10px;
+    line-height: 12px;
+    width: 60vw;
+  }
+  .welcome-grid {
+    grid-template-rows: 70px 20px 24px 25px;
+    gap: 8px;
+  }
+  .welcome .flex-contacts {
+    gap: 2vw;
+  }
+  .welcome-btn {
+    text-align: center;
+    padding: 0px;
+    box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.25), inset 2px -2px 12px rgba(34, 111, 33, 0.36);
+    font-size: 6px;
+    line-height: 8px;
+    width: 30vw;
+    height: 25px;
+  }
+
+  .services {
+    padding: 60px 0px;
+  }
+  .services-flex-text {
+    gap: 15px;
+  }
+  .services h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .services h1::after {
+    height: 1px;
+    bottom: 18px;
+    left: 125px;
+    width: 22vw;
+  }
+  .services-icons {
+    gap: 2vw;
+    padding: 80px 0px 0px 15px;
+  }
+  .services-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  .services-text-info p {
+    width: 40vw;
+    line-height: 17px;
     font-size: 13px;
+  }
+  .services .icon-flex {
+    gap: 10px;
+  }
+  .services .icon-flex img {
+    width: 24px;
+    height: 24px;
+  }
+  .services .icon-flex p {
+    font-size: 11px;
+    line-height: 130%;
+    width: 15vw;
+  }
+  .services-block-grid {
+    width: 35vw;
+    grid-template-columns: 180px 17vw;
+    gap: 2vw;
+  }
+  .services-block-grid .installation {
+    width: 13vw;
+    height: 450px;
+  }
+
+  .solutions h1 {
+    font-size: 32px;
+    line-height: 36px;
+    width: initial;
+  }
+  .solutions h1::after {
+    height: 1px;
+    top: 60px;
+    left: 430px;
+    width: 22vw;
+  }
+
+  .card {
+    width: 25vw;
+  }
+  .card img:first-child {
+    width: 25vw;
+  }
+  .card-grid {
+    grid-template: repeat(1, 3fr)/repeat(3, 1fr);
+    column-gap: 4vw;
+    row-gap: 20px;
+  }
+  .card p {
+    font-size: 12px;
+    margin: 4px 0px 10px 15px;
+  }
+  .card div {
+    font-size: 12px;
+    top: 14px;
+    line-height: 20px;
+    padding: 2px 14px 2px 10px;
+  }
+
+  .steps {
+    padding-bottom: 55px;
+  }
+  .steps li {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .steps-flex {
+    gap: 6vw;
+  }
+  .steps h1 {
+    font-size: 32px;
+    line-height: 36px;
+    width: 50vw;
+  }
+  .steps h1::after {
+    height: 1px;
+    top: 15px;
+    left: 310px;
+    width: 5vw;
+  }
+  .steps p {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .steps-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .steps-diagram {
+    padding-bottom: 60px;
+  }
+  .steps-diagram img {
+    width: 3vw;
+  }
+  .steps-diagram .flow-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .steps-diagram .arrow {
+    width: 17vw;
+    object-fit: contain;
+  }
+  .steps-diagram .diagram-text {
+    padding: 0vw 17vw 0vw 14.5vw;
+  }
+  .steps-diagram .diagram-text p {
+    font-size: 16px;
+  }
+
+  .form h1 {
+    line-height: 26px;
+    font-size: 24px;
+  }
+  .form input {
+    font-size: 12px;
+    padding: 12px;
+    width: 200px;
+  }
+  .form input[type=tel] {
+    margin-bottom: 15px;
+  }
+  .form button {
+    padding: 12px 34px;
+    font-size: 11px;
+  }
+
+  .about {
+    padding: 60px 0px;
+  }
+  .about h1 {
+    width: initial;
+    line-height: 36px;
+    font-size: 32px;
+    padding-bottom: 15px;
+  }
+  .about-text {
+    background-color: #FFFFFF;
+    background-image: none;
+    width: 20vw;
+    height: 125px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px;
+    justify-content: space-evenly;
+  }
+  .about-text h3 {
+    text-align: center;
+    font-size: 14px;
+    margin: 0px;
+  }
+  .about-text span {
+    font-size: 20px;
+  }
+  .about-text p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .about-grid {
+    width: initial;
+    grid-template: 1fr 1fr/1fr 1fr;
+  }
+  .about-alignment {
+    justify-content: center;
+    flex-direction: column;
+    gap: 6.6vw;
+  }
+  .about-block {
+    padding: 25px 40px 60px 40px;
+  }
+  .about-block .about-flex-text {
+    gap: 15px;
+  }
+  .about-block .about-flex-text p {
+    width: initial;
+    font-size: 13px;
+  }
+
+  .comfort {
+    padding-bottom: 55px;
+  }
+  .comfort h1 {
+    line-height: 36px;
+    font-size: 32px;
+    width: 80vw;
+    margin-top: 0px;
+  }
+  .comfort-flex {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .comfort-text {
+    margin-bottom: 20px;
+    width: initial;
+  }
+  .comfort-text p {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .comfort-img {
+    gap: 10px;
+  }
+  .comfort-img-column1, .comfort-img-column2 {
+    gap: 10px;
+    flex-direction: row;
+  }
+  .comfort-img-column2 {
+    margin-top: 0px;
+  }
+  .comfort-img img {
+    width: 20vw;
+  }
+  .comfort .list-icon {
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .comfort .list-icon-block {
+    padding: 5px 0px;
+  }
+  .comfort .list-icon-block img {
+    width: 2.5vw;
+  }
+  .comfort .list-text {
+    margin-bottom: 25px;
+  }
+  .comfort .list-text li, .comfort .list-text li:first-child, .comfort .list-text li:last-child {
+    width: 80vw;
+    margin-bottom: 8px;
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .portfolio {
+    padding-bottom: 60px;
+  }
+  .portfolio-text {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .portfolio-text h1 {
+    width: initial;
+    line-height: 36px;
+    font-size: 32px;
+  }
+  .portfolio-text p {
+    width: initial;
+    line-height: 18px;
+    font-size: 13px;
+  }
+  .portfolio-arrow {
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  .portfolio-arrow img {
+    width: 26px;
+    height: 26px;
+  }
+  .portfolio-slider {
+    gap: 20px;
+    margin-left: 9.375vw;
+    overflow: hidden;
+    grid-template-columns: 400px repeat(3, 1fr);
+  }
+  .portfolio-slider div[class*=portfolio-slider] {
+    background-size: cover;
+    padding: 25px 20px;
+    height: 300px;
+  }
+  .portfolio-slider div[class*=portfolio-slider] span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .portfolio-slider div[class*=portfolio-slider] p {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .portfolio-slider-first div {
+    gap: 5px;
+  }
+  .portfolio-slider div[class=portfolio-slider-fourth] {
+    display: none;
+  }
+
+  .clients h1 {
+    width: 60vw;
+    line-height: 36px;
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .clients-grid {
+    display: block;
+    max-width: 60vw;
+    padding-left: 10vw;
+  }
+  .clients-background {
+    padding: 190px 0px 72px;
+  }
+  .clients-text {
+    margin-bottom: 20px;
+  }
+  .clients p {
+    width: 60vw;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .clients-shop {
+    margin-bottom: 10px;
+    padding: 30px 5vw;
+  }
+  .clients-shop img {
+    width: 15vw;
+  }
+  .clients .MR {
+    margin-right: 20px;
+  }
+  .clients .SM, .clients .MR {
+    display: inline-block;
+  }
+  .clients-arrow {
+    gap: 25px;
+    justify-content: flex-start;
+    padding-left: 10vw;
+  }
+
+  .footer {
+    padding-top: 50px;
+  }
+  .footer-flex {
+    gap: 6vw;
+  }
+  .footer-text img {
+    width: 24vw;
+  }
+  .footer-text p {
+    font-size: 10px;
+    line-height: 16px;
+    margin: 15px 0px;
+    width: 25vw;
+  }
+  .footer-text hr {
+    width: 25vw;
+    height: 0.5px;
+  }
+  .footer-text span {
+    font-size: 12px;
+  }
+  .footer-text .slogan {
+    font-size: 9px;
+    margin-top: 5px;
+  }
+  .footer-title {
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+  .footer-info {
+    width: 20vw;
+    margin-bottom: 10px;
+  }
+  .footer-info img {
+    width: 14px;
+  }
+  .footer-info p, .footer-info a {
+    line-height: 18px;
+    font-size: 12px;
+  }
+  .footer form input {
+    margin-bottom: 10px;
+    padding: 8px 1.4vw;
+    width: 17vw;
+    font-size: 10px;
+  }
+  .footer form input:nth-child(2) {
+    margin-bottom: 15px;
+  }
+  .footer form button {
+    padding: 10px 40px;
+    font-size: 11px;
   }
 }
