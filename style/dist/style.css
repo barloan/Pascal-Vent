@@ -129,7 +129,7 @@ img {
   padding-top: 35px;
   position: relative;
 }
-.pop-up-body h1 {
+.pop-up-body h2 {
   color: #495E4C;
   font-family: Ruberoid;
   font-size: 40px;
@@ -142,7 +142,7 @@ img {
   position: relative;
   margin: 0px 0px 20px 35px;
 }
-.pop-up-body h1::after {
+.pop-up-body h2::after {
   content: "";
   position: absolute;
   top: 80px;
@@ -345,12 +345,12 @@ button[class*=btn]:hover {
 .services-text-info {
   padding-top: 60px;
 }
-.services-text-info h1 {
+.services-text-info h2 {
   line-height: 65px;
   position: relative;
   margin-bottom: 25px;
 }
-.services-text-info h1::after {
+.services-text-info h2::after {
   content: "";
   position: absolute;
   bottom: 28px;
@@ -443,7 +443,7 @@ button[class*=btn]:hover {
   column-gap: 47px;
 }
 
-h1, span {
+h2, span {
   color: #495E4C;
   font-family: Ruberoid;
   font-size: 45px;
@@ -458,12 +458,12 @@ h1, span {
 .solutions {
   margin-bottom: 46px;
 }
-.solutions h1 {
+.solutions h2 {
   width: 865px;
   position: relative;
   margin-bottom: 85px;
 }
-.solutions h1::after {
+.solutions h2::after {
   content: "";
   position: absolute;
   top: 89px;
@@ -515,11 +515,11 @@ h1, span {
 .steps {
   padding-bottom: 85px;
 }
-.steps h1 {
+.steps h2 {
   line-height: 65px;
   position: relative;
 }
-.steps h1::after {
+.steps h2::after {
   content: "";
   position: absolute;
   top: 29px;
@@ -605,7 +605,7 @@ h1, span {
   background-image: url(../../img/air.png);
   padding: 58px 0px;
 }
-.form h1 {
+.form h2 {
   color: #495E4C;
   font-family: Ruberoid;
   font-size: 35px;
@@ -667,7 +667,7 @@ h1, span {
   border-radius: 50px;
   box-shadow: 0px 0px 10px rgba(79, 93, 76, 0.1);
 }
-.about-block h1 {
+.about-block h2 {
   width: 313px;
   padding-bottom: 30px;
 }
@@ -740,7 +740,7 @@ h1, span {
 .comfort-text {
   width: 498px;
 }
-.comfort-text h1 {
+.comfort-text h2 {
   width: 495px;
   margin: 56px 0 27px;
   line-height: 60px;
@@ -838,7 +838,7 @@ h1, span {
   justify-content: space-between;
   margin-bottom: 46px;
 }
-.portfolio-text h1 {
+.portfolio-text h2 {
   width: 394px;
 }
 .portfolio-text p {
@@ -928,7 +928,7 @@ h1, span {
 .clients-tetx {
   grid-row: 1/2;
 }
-.clients h1 {
+.clients h2 {
   width: 622px;
   margin-bottom: 35px;
   line-height: 60px;
