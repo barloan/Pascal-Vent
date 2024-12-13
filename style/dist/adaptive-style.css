@@ -159,7 +159,7 @@ img {
     padding: 30px 100px;
   }
 
-  .portfolio-text h1 {
+  .portfolio-text h2 {
     width: 34vw;
   }
   .portfolio-text p {
@@ -244,15 +244,15 @@ img {
   .welcome {
     padding-bottom: 54px;
   }
-  .welcome h1, .welcome .title_logo {
+  .welcome h2, .welcome .title_logo {
     font-size: 48px;
     line-height: 56px;
   }
-  .welcome h1 {
+  .welcome h2 {
     width: 38vw;
     margin-bottom: 0px;
   }
-  .welcome h1::after {
+  .welcome h2::after {
     top: 80px;
     left: 0px;
     width: 13vw;
@@ -290,11 +290,11 @@ img {
   .services-flex-text {
     gap: 20px;
   }
-  .services h1 {
+  .services h2 {
     font-size: 40px;
     line-height: 56px;
   }
-  .services h1::after {
+  .services h2::after {
     bottom: 28px;
     left: 199px;
     width: 22vw;
@@ -330,12 +330,12 @@ img {
     text-align: right;
   }
 
-  .solutions h1 {
+  .solutions h2 {
     font-size: 40px;
     line-height: 56px;
     margin-bottom: 55px;
   }
-  .solutions h1::after {
+  .solutions h2::after {
     top: 89px;
     left: 500px;
     width: 30vw;
@@ -373,11 +373,11 @@ img {
   .steps-flex {
     gap: 6vw;
   }
-  .steps h1 {
+  .steps h2 {
     font-size: 40px;
     line-height: 56px;
   }
-  .steps h1::after {
+  .steps h2::after {
     top: 29px;
     left: 400px;
     width: 5vw;
@@ -411,7 +411,7 @@ img {
     margin-right: 0px;
   }
 
-  .form h1 {
+  .form h2 {
     padding-bottom: 18px;
     line-height: 26px;
     font-size: 28px;
@@ -432,7 +432,7 @@ img {
   .about {
     padding: 80px 0px;
   }
-  .about h1 {
+  .about h2 {
     line-height: 56px;
     font-size: 40px;
     padding-bottom: 15px;
@@ -467,7 +467,7 @@ img {
     line-height: 22px;
   }
 
-  .comfort h1 {
+  .comfort h2 {
     line-height: 56px;
     font-size: 40px;
     margin-bottom: 15px;
@@ -511,7 +511,7 @@ img {
   .portfolio-text {
     margin-bottom: 26px;
   }
-  .portfolio-text h1 {
+  .portfolio-text h2 {
     line-height: 56px;
     font-size: 40px;
     width: 38vw;
@@ -539,7 +539,7 @@ img {
   .clients-background {
     padding-bottom: 52px;
   }
-  .clients h1 {
+  .clients h2 {
     line-height: 56px;
     font-size: 40px;
     margin-bottom: 15px;
@@ -632,11 +632,11 @@ img {
   .welcome {
     padding-bottom: 54px;
   }
-  .welcome h1, .welcome .title_logo {
+  .welcome h2, .welcome .title_logo {
     font-size: 36px;
     line-height: 40px;
   }
-  .welcome h1::after {
+  .welcome h2::after {
     height: 1px;
     top: 60px;
   }
@@ -674,11 +674,11 @@ img {
   .services-flex-text {
     gap: 15px;
   }
-  .services h1 {
+  .services h2 {
     font-size: 32px;
     line-height: 36px;
   }
-  .services h1::after {
+  .services h2::after {
     height: 1px;
     bottom: 18px;
     left: 125px;
@@ -719,12 +719,12 @@ img {
     height: 450px;
   }
 
-  .solutions h1 {
+  .solutions h2 {
     font-size: 32px;
     line-height: 36px;
     width: initial;
   }
-  .solutions h1::after {
+  .solutions h2::after {
     height: 1px;
     top: 60px;
     left: 430px;
@@ -763,12 +763,12 @@ img {
   .steps-flex {
     gap: 6vw;
   }
-  .steps h1 {
+  .steps h2 {
     font-size: 32px;
     line-height: 36px;
     width: 50vw;
   }
-  .steps h1::after {
+  .steps h2::after {
     height: 1px;
     top: 15px;
     left: 310px;
@@ -804,7 +804,7 @@ img {
     font-size: 16px;
   }
 
-  .form h1 {
+  .form h2 {
     line-height: 26px;
     font-size: 24px;
   }
@@ -824,7 +824,7 @@ img {
   .about {
     padding: 60px 0px;
   }
-  .about h1 {
+  .about h2 {
     width: initial;
     line-height: 36px;
     font-size: 32px;
@@ -876,7 +876,7 @@ img {
   .comfort {
     padding-bottom: 55px;
   }
-  .comfort h1 {
+  .comfort h2 {
     line-height: 36px;
     font-size: 32px;
     width: 80vw;
@@ -935,7 +935,7 @@ img {
     gap: 10px;
     margin-bottom: 20px;
   }
-  .portfolio-text h1 {
+  .portfolio-text h2 {
     width: initial;
     line-height: 36px;
     font-size: 32px;
@@ -979,7 +979,7 @@ img {
     display: none;
   }
 
-  .clients h1 {
+  .clients h2 {
     width: 60vw;
     line-height: 36px;
     font-size: 32px;
@@ -1154,12 +1154,12 @@ img {
     gap: 14px;
     line-height: 24px;
   }
-  .services h1 {
+  .services h2 {
     font-size: 28px;
     line-height: 38px;
     margin-bottom: 10px;
   }
-  .services h1::after {
+  .services h2::after {
     margin-bottom: 10px;
     width: 0;
   }
@@ -1202,12 +1202,12 @@ img {
     width: 91vw;
   }
 
-  .solutions h1 {
+  .solutions h2 {
     font-size: 28px;
     line-height: 38px;
     width: 380px;
   }
-  .solutions h1::after {
+  .solutions h2::after {
     height: 0.5px;
     top: 55px;
     left: 225px;
@@ -1238,12 +1238,12 @@ img {
   .steps-flex {
     gap: 6vw;
   }
-  .steps h1 {
+  .steps h2 {
     font-size: 28px;
     line-height: 38px;
     width: 380px;
   }
-  .steps h1::after {
+  .steps h2::after {
     height: 0.5px;
     top: 15px;
     left: 275px;
@@ -1285,7 +1285,7 @@ img {
   .form {
     background-color: #D9FADD;
   }
-  .form h1 {
+  .form h2 {
     line-height: 38px;
     font-size: 28px;
   }
@@ -1305,7 +1305,7 @@ img {
   .about {
     padding: 60px 0px;
   }
-  .about h1 {
+  .about h2 {
     line-height: 38px;
     font-size: 28px;
     padding-bottom: 15px;
@@ -1341,7 +1341,7 @@ img {
   .comfort {
     padding-bottom: 55px;
   }
-  .comfort h1 {
+  .comfort h2 {
     line-height: 38px;
     font-size: 28px;
     width: initial;
@@ -1394,7 +1394,7 @@ img {
   .portfolio {
     padding-bottom: 60px;
   }
-  .portfolio-text h1 {
+  .portfolio-text h2 {
     line-height: 38px;
     font-size: 28px;
   }
@@ -1419,7 +1419,7 @@ img {
   .clients {
     background-color: #D9FADD;
   }
-  .clients h1 {
+  .clients h2 {
     width: 80vw;
     line-height: 38px;
     font-size: 28px;
@@ -1556,7 +1556,7 @@ img {
     font-size: 14px;
   }
 
-  .solutions h1 {
+  .solutions h2 {
     width: 360px;
   }
 
@@ -1568,7 +1568,7 @@ img {
   .steps {
     padding-bottom: 20px;
   }
-  .steps h1 {
+  .steps h2 {
     width: 360px;
   }
   .steps li {
@@ -1586,7 +1586,7 @@ img {
     padding: 20px;
     background-color: #D9FADD;
   }
-  .form h1 {
+  .form h2 {
     line-height: 38px;
     font-size: 24px;
   }
@@ -1594,7 +1594,7 @@ img {
   .about {
     padding: 40px 0px;
   }
-  .about h1 {
+  .about h2 {
     line-height: 38px;
     font-size: 28px;
   }
@@ -1752,12 +1752,12 @@ img {
     padding: 20px 20px;
   }
 
-  .solutions h1 {
+  .solutions h2 {
     width: 300px;
     font-size: 24px;
     line-height: 34px;
   }
-  .solutions h1::after {
+  .solutions h2::after {
     top: 52px;
     left: 190px;
   }
@@ -1767,12 +1767,12 @@ img {
     margin: 0px 0px 8px 10px;
   }
 
-  .steps h1 {
+  .steps h2 {
     width: 300px;
     font-size: 24px;
     line-height: 34px;
   }
-  .steps h1::after {
+  .steps h2::after {
     left: 240px;
   }
   .steps p {
@@ -1801,7 +1801,7 @@ img {
     padding: 20px;
     background-color: #D9FADD;
   }
-  .form h1 {
+  .form h2 {
     line-height: 38px;
     font-size: 24px;
   }
@@ -1809,7 +1809,7 @@ img {
   .about {
     padding: 40px 0px;
   }
-  .about h1 {
+  .about h2 {
     line-height: 34px;
     font-size: 24px;
   }
@@ -1839,7 +1839,7 @@ img {
   .comfort {
     padding-bottom: 40px;
   }
-  .comfort h1 {
+  .comfort h2 {
     line-height: 34px;
     font-size: 24px;
   }
@@ -1873,7 +1873,7 @@ img {
   .portfolio {
     padding-bottom: 40px;
   }
-  .portfolio h1 {
+  .portfolio h2 {
     line-height: 34px;
     font-size: 24px;
   }
@@ -1881,7 +1881,7 @@ img {
     line-height: 20px;
   }
 
-  .clients h1 {
+  .clients h2 {
     line-height: 34px;
     font-size: 24px;
   }
