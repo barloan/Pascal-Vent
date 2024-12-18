@@ -91,10 +91,14 @@
   text-align: left;
   line-height: 24px;
   font-weight: 700;
+  border: none;
 }
 .header .btn:hover {
   background-color: #FFFFFF;
   color: #495E4C;
+}
+.header .menu {
+  display: none;
 }
 
 .eror-404 {
@@ -144,6 +148,7 @@
   font-weight: 700;
   width: 80px;
   text-decoration: none;
+  text-align: center;
 }
 .eror-404 a:hover {
   background-color: #FFFFFF;
@@ -258,4 +263,5 @@
   text-align: left;
   line-height: 24px;
   font-weight: 700;
+  border: none;
 }
