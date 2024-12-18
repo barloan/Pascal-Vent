@@ -1,0 +1,494 @@
+@import "variables";
+@import "mixin";
+
+  @font-face {
+      font-family: Ruberoid;
+      font-weight: 500;
+      font-style: normal;
+      src:  local("Ruberoid-Medium"),
+            url(../font/Ruberoid/Ruberoid-Medium.woff2) format('woff2');
+      font-display: swap;
+    }
+
+
+  @font-face {
+    font-family: Ruberoid;
+    font-weight: 700;
+    font-style: normal;
+    src:  local("Ruberoid-Bold"),
+          url(../font/Ruberoid/Ruberoid-Bold.woff2) format('woff2');
+    font-display: swap;
+  }
+
+
+  @font-face {
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    font-style: normal;
+    src:  local("Proximanova_regular"),
+          url(../font/Proxima_Nova/proximanova_regular.woff2) format('woff2');
+    font-display: swap;
+  }  
+
+  @media (max-width:1400px)  {
+    .container{
+        max-width: 81%;
+    }
+    .eror-404 { 
+      padding-bottom: 250px;}
+  }
+  @media (max-width: 1250px) {
+    .header {
+        padding-bottom:60px;
+        & img {
+          width: 13vw;
+        }
+        & .list {
+          gap: 2.7vw;
+          &-item a{
+            font-size: 12px;
+          }
+        }
+        & .btn {
+          font-size: 12px;
+          box-shadow: 0px 0px 0px 7px  rgba(255, 255, 255, 0.25), inset 2px -2px 12px rgba(34, 111, 33, 0.36);
+          padding: 12px 34px;
+        }
+      }
+      .eror-404 { 
+        padding-bottom: 150px;
+        & .mistake {
+              margin-left: 20px;
+              gap: 35px;
+        }
+        & h1 {
+            font-size: 130px;
+            line-height: 100px;
+        }
+        & p {
+              font-size: 18px;
+              line-height: 120%;
+    
+        }
+        & .btn {
+          padding: 20px 80px;
+          font-size: 15px; 
+          width: 80px; 
+        }
+  }
+
+  .footer {
+    &-flex {
+      gap: 8vw;
+    }
+    &-text {
+      & img {
+        width: 24.4vw;
+      }
+      & p {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 20px 0px;
+        width: 350px;
+      }
+      & hr {
+        width:350px ;
+      }
+      & span {
+        font-size: 16px;
+      }
+      & .slogan {
+        font-size: 14px;
+        margin-top: 20px;
+      }
+    }
+    &-title {
+      font-size: 20px;
+      margin-bottom: 18px;
+    }
+    &-info {
+      margin-bottom: 20px;
+      & img {
+        width: 18px;
+      }
+      & p, a {
+            font-size: 14px;    
+      }
+  } 
+    & form {
+      & input {
+        margin-bottom: 20px;
+        padding: 12px 1.4vw;
+        width: 17vw;
+      } 
+      & input:nth-child(2) {
+        margin-bottom: 23px;
+      }
+      & button {
+        box-shadow: 0px 0px 0px 5px  rgba(120, 192, 129, 0.25), inset 2px -2px 12px rgba(34, 111, 33, 0.36);
+        padding: 14px 40px;
+        font-size: 13px;
+        }
+    }
+  }
+  }
+  @media (max-width: 1023px) {
+    .header { 
+      & .list {
+        gap: 2vw;
+        &-item a{
+          font-size: 10px;
+        }
+      }
+      & .btn {
+        font-size: 10px;
+        box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.25), inset 2px -2px 12px rgba(34, 111, 33, 0.36);
+        padding: 8px 25px;
+      }
+      
+    }
+    .eror-404 { 
+      padding-bottom: 100px;
+      & .mistake {
+            margin-left: 15px;
+            gap: 30px;
+      }
+      & h1 {
+          font-size: 110px;
+          line-height: 90px;
+      }
+      & p {
+            font-size: 16px;
+            line-height: 120%;
+      }
+      & .btn {
+        padding: 15px 70px;
+        font-size: 14px;  
+       
+      }
+}
+    .footer {
+        padding-top: 50px;
+        &-flex {
+          gap: 6vw;
+        }
+        &-text {
+          & img {
+            width: 24vw;
+          }
+          & p {
+            font-size: 10px;
+            line-height: 16px;
+            margin: 15px 0px;
+            width: 25vw;
+          }
+          & hr {
+            width: 25vw;
+            height: 0.5px;
+          }
+          & span {
+            font-size: 12px;
+          }
+          & .slogan {
+            font-size: 9px;
+            margin-top: 5px;
+          }
+        }
+        &-title {
+          line-height: 24px;
+          font-size: 16px;
+          margin-bottom: 18px;
+        }
+        &-info {
+          width: 20vw;
+          margin-bottom: 10px;
+          & img {
+            width: 14px;
+          }
+          & p, a {
+            line-height: 18px;
+            font-size: 12px;    
+          }
+      } 
+        & form {
+          & input {
+            margin-bottom: 10px;
+            padding: 8px 1.4vw;
+            font-size: 10px;
+          } 
+          & input:nth-child(2) {
+            margin-bottom: 15px;
+          }
+          & button {
+            padding: 10px 40px;
+            font-size: 11px;
+            }
+        }}
+
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 90%;
+  }
+  .header { 
+    padding: 1.8vw 3.8vw 5vw 3.1vw;
+    & .list, .btn{
+      display: none;
+    }
+    & img {
+      width: 20vw;
+    } 
+    & .menu {
+      display: block;
+      width: 40px;
+    }
+  }
+
+  .eror-404 { 
+    padding-bottom: 90px;
+    & .mistake {
+          margin-left: 0px;
+          gap: 25px;
+          width: initial;
+    }
+    & h1 {
+        font-size: 90px;
+        line-height: 80px;
+    }
+    & p {
+          font-size: 14px;
+          width: 350px;
+    }
+    & .btn {
+      padding: 10px 60px;
+      font-size: 12px;  
+    }
+  }
+  .footer {
+    padding-top: 10px;
+    &-flex {
+      flex-wrap: wrap;
+      gap: 1vw;
+      justify-content: space-evenly;
+    }
+    &-text {
+      gap: 10px;
+      display: flex;
+      & img {
+        object-fit: contain;
+        width: 24vw;
+      }
+      & p {
+        font-size: 10px;
+        line-height: 16px;
+        margin: 0px;
+        width: 60vw;
+      }
+      & hr, span, .slogan  {
+        display: none;
+      }
+  
+    }
+    &-title {
+      margin-bottom: 12px;
+    }
+    &-info {
+      width: 40vw;
+      margin-bottom: 10px;
+      & img {
+        width: 14px;
+      }
+      & p, a {
+        line-height: 16px;
+        font-size: 10px;    
+      }
+  } 
+    & form {
+      & input {
+        margin-bottom: 10px;
+        padding: 4px 9vw 4px 3vw;
+        width: initial;
+        font-size: 10px;
+      } 
+      & input:nth-child(2) {
+        margin-bottom: 15px;
+      }
+      & button {
+        padding: 6px 50px;
+        font-size: 10px;
+        }
+        & input:nth-child(3) {
+          margin-bottom: 20px;
+    }
+    }
+  }
+
+  }  
+
+  @media (max-width: 424px) {
+    .background {
+      padding-bottom: 200px;
+      background-size: cover;
+      background-image: url(../../img/background-adaptivephone.png) ;
+    }
+    .header {
+      & img {
+        width: 30vw;
+      } 
+      & .menu {
+        width: 60px;
+      }
+    }
+    .eror-404 { 
+      padding-bottom: 60px;
+  
+      & .mistake {
+            gap: 15px;
+            justify-content: flex-start;
+            width: initial;
+      }
+      & h1 {
+          font-size: 60px;
+          line-height: 50px;
+      }
+      & p {
+            font-size: 10px;
+            width: 350px;
+      }
+      & .btn {
+        padding: 8px 50px;
+        font-size: 10px;  
+      }
+    }
+    .footer {
+      padding-top: 10px;
+      &-flex {
+        justify-content: flex-start;
+      }
+      &-text {
+        & p, img {
+          display: none;
+        }
+      }
+      &-contact {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      &-title {
+        width: 80vw;
+        margin-bottom: 12px;
+      }
+      &-info {
+        gap: 5px;
+        width: 40vw;
+        margin-bottom: 10px;
+        & img {
+          width: 14px;
+        }
+        & p, a {
+          line-height: 16px;
+          font-size: 10px;    
+        }
+    } 
+      & form {
+        width: 85vw;
+        & input {
+          margin-bottom: 10px;
+          padding: 4px 9vw 4px 3vw;
+          font-size: 10px;
+        } 
+        & input:nth-child(2) {
+          margin-bottom: 15px;
+        }
+        & button {
+          padding: 6px 50px;
+          font-size: 10px;
+          }
+      }
+    }
+  }
+
+  @media (max-width: 374px) {
+    .background {
+      padding-bottom:100px;
+      background-image: url(../../img/background-adaptive.png) ;
+    }
+    .header {
+      & img {
+        width: 30vw;
+      } 
+      & .menu {
+        width: 60px;
+      }
+    }
+
+  .eror-404 { 
+    padding-bottom: 60px;
+
+    & .mistake {
+          gap:20px;
+          justify-content: flex-start;
+    }
+    & h1 {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    & p {
+          font-size: 10px;
+          width: 250px;
+    }
+    & .btn {
+      padding: 8px 50px;
+      font-size: 12px; 
+    }
+  }
+  .footer {
+    padding-top: 10px;
+    &-flex {
+      justify-content: flex-start;
+    }
+    &-text {
+      & p, img {
+        display: none;
+      }
+    }
+    &-contact {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &-title {
+      width: 80vw;
+      margin-bottom: 12px;
+    }
+    &-info {
+      gap: 5px;
+      width: 40vw;
+      margin-bottom: 10px;
+      & img {
+        width: 14px;
+      }
+      & p, a {
+        line-height: 16px;
+        font-size: 10px;    
+      }
+  } 
+    & form {
+      width: 85vw;
+      & input {
+
+        margin-bottom: 10px;
+        padding: 4px 9vw 4px 3vw;
+        font-size: 10px;
+      } 
+      & input:nth-child(2) {
+        margin-bottom: 15px;
+      }
+      & button {
+        padding: 6px 50px;
+        font-size: 10px;
+        }
+    }
+  }
+}
+  
