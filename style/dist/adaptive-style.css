@@ -613,7 +613,7 @@ img {
     font-size: 13px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .header {
     padding-bottom: 20px;
   }
@@ -1509,7 +1509,8 @@ img {
   }
 
   .background {
-    background: linear-gradient(180deg, #F2F2F2 0%, #F0F2F1 17%, #EFEFEF 36%, #EAECEB 51%, #E7E8EA 67%, #E2E6E5 82%, #DEE2E1 100%);
+    padding-bottom: 250px;
+    background-image: url(../../img/background-adaptivephone.png);
   }
 
   .header img {
@@ -1707,6 +1708,11 @@ img {
   }
 }
 @media (max-width: 374px) {
+  .background {
+    padding-bottom: 200px;
+    background-image: url(../../img/background-adaptive.png);
+  }
+
   .header img {
     width: 30vw;
   }
@@ -1748,6 +1754,7 @@ img {
     gap: 20px;
   }
   .welcome-btn {
+    width: inherit;
     font-size: 12px;
     padding: 20px 20px;
   }
@@ -1762,6 +1769,9 @@ img {
     left: 190px;
   }
 
+  .card-grid {
+    grid-template: repeat(1, 8fr)/repeat(1, 1fr);
+  }
   .card p {
     font-size: 11px;
     margin: 0px 0px 8px 10px;
@@ -1838,6 +1848,10 @@ img {
 
   .comfort {
     padding-bottom: 40px;
+  }
+  .comfort-btn {
+    padding: 20px 67px;
+    font-size: 12px;
   }
   .comfort h2 {
     line-height: 34px;
