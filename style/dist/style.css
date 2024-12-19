@@ -2,35 +2,35 @@
   font-family: Ruberoid;
   font-weight: 300;
   font-style: normal;
-  src: local("Ruberoid-Light"), url(../font/Ruberoid/Ruberoid-Light.woff2) format("woff2");
+  src: local("Ruberoid-Light"), url(../font/Ruberoid/Ruberoid-Light.woff2) format("woff2"), url(../font/Ruberoid/Ruberoid-Light.woff) format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: Ruberoid;
   font-weight: 500;
   font-style: normal;
-  src: local("Ruberoid-Medium"), url(../font/Ruberoid/Ruberoid-Medium.woff2) format("woff2");
+  src: local("Ruberoid-Medium"), url(../font/Ruberoid/Ruberoid-Medium.woff2) format("woff2"), url(../font/Ruberoid/Ruberoid-Medium.woff) format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: Ruberoid;
   font-weight: 600;
   font-style: normal;
-  src: local("Ruberoid-SemoBold"), url(../font/Ruberoid/Ruberoid-SemiBold.woff2) format("woff2");
+  src: local("Ruberoid-SemiBold"), url(../font/Ruberoid/Ruberoid-SemiBold.woff2) format("woff2"), url(../font/Ruberoid/Ruberoid-SemiBold.woff) format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: Ruberoid;
   font-weight: 700;
   font-style: normal;
-  src: local("Ruberoid-Bold"), url(../font/Ruberoid/Ruberoid-Bold.woff2) format("woff2");
+  src: local("Ruberoid-Bold"), url(../font/Ruberoid/Ruberoid-Bold.woff2) format("woff2"), url(../font/Ruberoid/Ruberoid-Bold.woff) format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "Proxima Nova";
   font-weight: 400;
   font-style: normal;
-  src: local("Proximanova_regular"), url(../font/Proxima_Nova/proximanova_regular.woff2) format("woff2");
+  src: local("Proximanova_regular"), url(../font/Proxima_Nova/proximanova_regular.woff2) format("woff2"), url(../font/Proxima_Nova/ProximaNova-Regular.woff) format("woff"), url(../font/Proxima_Nova/proximanova_regular.ttf) format("ttf");
   font-display: swap;
 }
 * {
@@ -647,6 +647,10 @@ h2, span {
   line-height: 24px;
   font-weight: 700;
 }
+.form button:hover {
+  background-color: #FFFFFF;
+  color: #495E4C;
+}
 
 .about {
   background-image: url(../../img/ovalblur.png);
@@ -1076,4 +1080,8 @@ h2, span {
   text-align: left;
   line-height: 24px;
   font-weight: 700;
+}
+.footer form button:hover {
+  background-color: #FFFFFF;
+  color: #495E4C;
 }
