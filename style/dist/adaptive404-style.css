@@ -110,7 +110,7 @@
     font-size: 13px;
   }
 }
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .header .list {
     gap: 2vw;
   }
@@ -198,7 +198,7 @@
     font-size: 11px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .container {
     max-width: 90%;
   }
@@ -294,7 +294,7 @@
     margin-bottom: 20px;
   }
 }
-@media (max-width: 424px) {
+@media (max-width: 425px) {
   .background {
     padding-bottom: 200px;
     background-size: cover;
@@ -374,7 +374,7 @@
     font-size: 10px;
   }
 }
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .background {
     padding-bottom: 100px;
     background-image: url(../../img/background-adaptive.png);
