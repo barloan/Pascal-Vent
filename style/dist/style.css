@@ -438,7 +438,7 @@ button[class*=btn]:hover {
 
 .card-grid {
   display: grid;
-  grid-template: repeat(1, 2fr)/repeat(4, 257px);
+  grid-template: repeat(2, 1fr)/repeat(4, 1fr);
   row-gap: 82px;
   column-gap: 47px;
 }
@@ -568,6 +568,7 @@ h2, span {
   display: flex;
   gap: 8px;
   margin-bottom: 25px;
+  justify-content: center;
 }
 .steps-diagram .flow-icon {
   width: 100px;
@@ -584,7 +585,7 @@ h2, span {
 }
 .steps-diagram .diagram-text {
   display: flex;
-  padding-left: 246px;
+  justify-content: center;
 }
 .steps-diagram .diagram-text p {
   color: #495E4C;
@@ -872,7 +873,7 @@ h2, span {
   grid-template-columns: 500px repeat(3, 270px);
   gap: 30px;
   overflow: hidden;
-  margin-left: 135px;
+  margin-left: 9.4vw;
 }
 .portfolio-slider div[class*=portfolio-slider] {
   padding: 45px 40px;
